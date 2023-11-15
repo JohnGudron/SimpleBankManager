@@ -1,0 +1,60 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+
+# Course folders
+/Simple Bank Manager/Convert currencies
+/Simple Bank Manager/Create LogIn screen
+/Simple Bank Manager/Main menu with features
+/Simple Bank Manager/Pay bills
+/Simple Bank Manager/View balance and make transfers
+sampledata/
+
+# Gradle files
+.gradle
+build/
+/Aquarium/task/build
+/gradle
+
+# IntelliJ
+*.iml
+*.yaml
+.idea/
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+
+# Android Studio generated files and folders
+/captures
+.externalNativeBuild
+.cxx
+*.apk
+output.json
+
+# Keystore files
+*.jks
+*.keystore
+
+# Google Services (e.g. APIs or Firebase)
+google-services.json
+
+# Android Profiling
+*.hprof
+
+# OS-specific files
+.DS_Store
+.DS_Store?
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+# Tests
+androidTest/
+test*/
+
+# Other
+*.html

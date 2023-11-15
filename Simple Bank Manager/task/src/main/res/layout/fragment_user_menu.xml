@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UserMenuFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/userMenuWelcomeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome $username"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/userMenuViewBalanceButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="view balance"
+        app:layout_constraintEnd_toEndOf="@+id/userMenuWelcomeTextView"
+        app:layout_constraintStart_toStartOf="@+id/userMenuWelcomeTextView"
+        app:layout_constraintTop_toBottomOf="@+id/userMenuWelcomeTextView" />
+
+    <Button
+        android:id="@+id/userMenuTransferFundsButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="transfer funds"
+        app:layout_constraintEnd_toEndOf="@+id/userMenuViewBalanceButton"
+        app:layout_constraintStart_toStartOf="@+id/userMenuViewBalanceButton"
+        app:layout_constraintTop_toBottomOf="@+id/userMenuViewBalanceButton" />
+
+    <Button
+        android:id="@+id/userMenuExchangeCalculatorButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="calculate exchange"
+        app:layout_constraintEnd_toEndOf="@+id/userMenuTransferFundsButton"
+        app:layout_constraintStart_toStartOf="@+id/userMenuTransferFundsButton"
+        app:layout_constraintTop_toBottomOf="@+id/userMenuTransferFundsButton" />
+
+    <Button
+        android:id="@+id/userMenuPayBillsButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="pay bills"
+        app:layout_constraintEnd_toEndOf="@+id/userMenuExchangeCalculatorButton"
+        app:layout_constraintStart_toStartOf="@+id/userMenuExchangeCalculatorButton"
+        app:layout_constraintTop_toBottomOf="@+id/userMenuExchangeCalculatorButton" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
